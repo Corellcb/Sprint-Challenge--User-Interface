@@ -96,6 +96,7 @@ header nav a {
     margin: 0 auto;
 }
 
+/* Top */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -110,6 +111,7 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+/* Middle/Boxes */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -129,7 +131,6 @@ header nav a {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -137,6 +138,47 @@ header nav a {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box0 {
+    background-color: dodgerblue;
+}
+
+/* Bottom */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -150,6 +192,8 @@ header nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* Footer */
 
 footer {
     width: 100%;
