@@ -66,6 +66,31 @@ p {
     line-height: 1.4;
 }
 
+/* Header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    width: 100%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo {
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* Main Content */
 .container {
     width: 800px;
     margin: 0 auto;
