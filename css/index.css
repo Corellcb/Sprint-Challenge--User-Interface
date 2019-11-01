@@ -274,6 +274,7 @@ header nav a {
     padding: 15px 10px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     background-color: whitesmoke;
     margin: 15px 0;
@@ -298,6 +299,22 @@ header nav a {
     text-align: center;
 }
 
+.products-main div a:hover {
+    animation-name: button-black;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-black {
+    from {background-color: white;}
+    to {
+        color: white; 
+        background-color: black;
+        width:100%;
+        border-radius: 0;
+        margin: inherit 0;
+    }
+}
 /* Products Bottom  */
 
 .products-bottom {
