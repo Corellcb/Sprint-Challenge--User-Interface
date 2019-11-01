@@ -193,6 +193,57 @@ header nav a {
     padding-right: 0;
 }
 
+/* About Page */
+
+/* About Top Content */
+
+.about-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 2px dotted black;
+    padding: 20px;
+}
+
+/* About Main Content */
+
+.about-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-main div {
+    width: 48%;
+    padding: 30px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+}
+
+.about-main div h2 {
+    margin-top: 10px;
+}
+
+.about-main div a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* About Bottom */
+
+.about-bottom {
+    padding: 30px 10px;
+}
+
 /* Footer */
 
 footer {
