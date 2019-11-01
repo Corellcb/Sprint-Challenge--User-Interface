@@ -270,19 +270,21 @@ header nav a {
 .products-main div {
     width: 48%;
     border: 2px solid black;
+    border-radius: 5px;
     padding: 15px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: whitesmoke;
     margin: 15px 0;
-    border-radius: 5px;
 }
 
 .products-main img {
     width: 48%;
     margin: 15px 0;
     height: 255px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .products-main div a {
@@ -294,6 +296,13 @@ header nav a {
     padding: 5px 20px;
     width: 50%;
     text-align: center;
+}
+
+/* Products Bottom  */
+
+.products-bottom {
+    border-top: 2px dotted black;
+    padding: 30px 0;
 }
 
 /* Footer */
