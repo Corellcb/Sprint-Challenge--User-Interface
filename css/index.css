@@ -66,11 +66,37 @@ p {
     line-height: 1.4;
 }
 
+/* Header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo {
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* Main Content */
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* Top */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,6 +111,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/* Middle/Boxes */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +131,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +138,47 @@ p {
     justify-content: center;
 }
 
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box0 {
+    background-color: dodgerblue;
+}
+
+/* Bottom */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,6 +192,137 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* About Page */
+
+/* About Top Content */
+
+.about-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom: 2px dotted black;
+    padding: 20px;
+}
+
+/* About Main Content */
+
+.about-main, .products-main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.about-main div {
+    width: 48%;
+    padding: 30px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 2px dotted black;
+    margin-bottom: 30px;
+}
+
+.about-main div h2 {
+    margin-top: 10px;
+}
+
+.about-main div a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* About Bottom */
+
+.about-bottom {
+    padding: 30px 10px;
+}
+
+/* Products */
+
+.products-jumbo {
+    height: 153px;
+}
+
+/* Products Top */
+
+.products-top {
+    padding: 0 10px 30px;
+    border-bottom: 2px dotted black;
+}
+
+/* Products Main  */
+
+.products-main {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 30px 0;
+}
+
+.products-main div {
+    width: 48%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    margin: 15px 0;
+}
+
+.products-main img {
+    width: 48%;
+    margin: 15px 0;
+    height: 255px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.products-main div a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.products-main div a:hover {
+    animation-name: button-black;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-black {
+    from {background-color: white;}
+    to {
+        color: white; 
+        background-color: black;
+        width:100%;
+        border-radius: 0;
+        margin: inherit 0;
+    }
+}
+/* Products Bottom  */
+
+.products-bottom {
+    border-top: 2px dotted black;
+    padding: 30px 0;
+}
+
+/* Footer */
 
 footer {
     width: 100%;
